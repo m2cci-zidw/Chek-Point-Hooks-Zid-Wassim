@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route  exact path="/home" component={MovieApp}/>
+        <Route  exact path="/" component={MovieApp}/>
         <Route path="/home/:id" component={MovieDetail}/>
         <Route path="/*" component={Errors}/>
        
