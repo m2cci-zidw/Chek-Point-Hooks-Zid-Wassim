@@ -3,7 +3,7 @@ import { Card,Carousel,Button } from "react-bootstrap";
 import './MovieCard.css'
 import Raiting from "../Raiting/Raiting"
 import ModalAddMovie from "../AddMovie/ModalMovie"
-import {Link} from 'react-router-dom'
+
 
 const MovieCard = ({movie,AddCard, AddMovie}) => {
     return (
@@ -50,9 +50,9 @@ const MovieCard = ({movie,AddCard, AddMovie}) => {
                     <Raiting filterRating={false} movieRaiting= {movie.rate}/>
                     <br/>
                     <br/>
-                    <Link to={`/home/${movie.id}`}>
+                   
                     <Button variant="warning">Bande-annonce</Button>
-                    </Link>
+                  
                 </Card.Body>
                 </Card>
         }
