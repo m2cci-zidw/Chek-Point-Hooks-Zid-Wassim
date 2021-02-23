@@ -4,24 +4,15 @@ import MovieApp from './Component/MovieApp';
 
 
 
-
-
- 
-
-
-
-
 function App() {
  
 
   
   return (
     <div className="App">
+
         <MovieApp/>
-        
-        
-    
-     
+       
        </div>
   );
 }
